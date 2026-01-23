@@ -1,4 +1,4 @@
-# Sega-Nomad-MAIN-Reproduction-PCB
+# Sega Nomad MAIN Reproduction PCB
 Reproduction of the Sega Nomad's main board, created from scans provided by Villahed94, Sega's documentation, and community knowledge of the FC1004 style Genesis.
 Additional features include TMSS bypass jumpers, SMS support and 32X support.
 
@@ -50,3 +50,37 @@ All large MLCC capacitors can have their value increased to 10uF to improve nois
 |C32|N/A|DO NOT POPULATE|
 |C33|N/A|DOES NOT EXIST|
 |C30|1uF|0603 X7R SRES BYPASSS ONLY|
+|R1|150R|0603|
+|R2|220R|0603|
+|R3|2.2K|0603|
+|R4|220R|0603|
+|R5|0R|0603 DAC LIMITING RESISTOR|
+|R6|0R|0603 DAC LIMITING RESISTOR|
+|R7|2.2K|0603|
+|R8|4.7K|0603|
+|R9|100R|0603|
+|R10|100R|0603|
+|R11|2.2K|0603|
+|R12|2.2K|0603|
+|R13|5.6K|0603|
+|R14|5.6K|0603|
+|R15|5.6K|0603|
+|R16|4.7K|0603|
+|R17|4.7K|0603|
+|R18|4.7K|0603|
+|R19|1.2K|0603|
+|R20|1.2K|0603|
+|R21|1.2K|0603|
+|R22|4.7K|0603|
+|R23|1.0K|0603|
+|R24|330R|0603|
+|R25|330R|0603|
+|R26|2.2K|0603|
+|R27|100K|0603|
+|RA1|4.7K|5X1206 BANK|
+|RB1|2.2K|4X0603 BANK|
+|RB2|100R|4X0603 BANK|
+|RB3|100R|4X0603 BANK|
+|RB4|100R|4X0603 BANK|
+|RB5|100R|4X0603 BANK|
+|RB6|100R|4X0603 BANK|
