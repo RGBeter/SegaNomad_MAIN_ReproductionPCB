@@ -2,10 +2,17 @@
 Reproduction of the Sega Nomad's main board, created from scans provided by Villahed94, Sega's documentation, and community knowledge of the FC1004 style Genesis.
 Additional features include TMSS bypass jumpers, SMS support and 32X support.
 
-Build notes
+IMAGES
+
+# Build Notes
+These PCBs are tested to work with with a stock VENUS SUB pcb, building these requires skills in microsoldering, QFP soldering, hot air rework, and Mega Drive troubleshooting.
+It is highly recomendded you start with a set of known working parts from a donor mega drive. VA1, VA1.8 and VA3 model 2 sega genesis can provide all of the nescecary custom chips needed for this build.
+Support is not officilly provided by neither RGBeter nor Villahed94 with building or debugging these PCBs.
 
 # Production Notes
 While Sega utlized a 2 layer PCB for the Nomad, it is best to order these as a 4 layer PCB in order to improve noise across the board
+If you wish NOT to include the SRES bypass, add the following bodge wires in order to connect the original 315-5684 based SRES circuit.
+IMAGE
 
 # BOM
 Most of, if not all parts can be directly transplanted from a donor Nomad Main board, however, some alterations have been made, and they are as follows:
@@ -16,6 +23,13 @@ All large MLCC capacitors can have their value increased to 10uF to improve nois
 
 |Component|Value|Note|
 |:--------|:----|:---|
+|IC1|PLCC 68000|CPU|
+|IC2|68K RAM|WORK RAM|
+|IC3|FC1004/FF1004|MAIN ASIC|
+|IC4|VIDEO RAM|VRAM|
+|IC5|QFP Z80|Z80 CPU|
+|IC6|Z80 RAM|ZRAM|
+|IC7|LM809|SRES BYPASS ONLY|
 |C1|10uF|1206 X7R|
 |C2|10uF|1206 X7R|
 |C3|10uF|1206 X7R|
@@ -50,6 +64,12 @@ All large MLCC capacitors can have their value increased to 10uF to improve nois
 |C32|N/A|DO NOT POPULATE|
 |C33|N/A|DOES NOT EXIST|
 |C30|1uF|0603 X7R SRES BYPASSS ONLY|
+|CE1|47uF 6v|SMD ELEC, CAN REPLACE WITH TANTALUM|
+|CE2|47uF 6v|SMD ELEC, CAN REPLACE WITH TANTALUM|
+|CE3|100uF 6v|SMD ELEC, CAN REPLACE WITH TANTALUM|
+|CE4|47uF 6v|SMD ELEC, CAN REPLACE WITH TANTALUM|
+|D1|SOD-923 DIODE|SRES BYPASS ONLY|
+|OSC1|MCLK OSCILATOR, SQUARE PACKAGE|CHECK REGION|
 |R1|150R|0603|
 |R2|220R|0603|
 |R3|2.2K|0603|
