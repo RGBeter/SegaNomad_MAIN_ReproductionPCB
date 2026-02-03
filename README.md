@@ -6,8 +6,8 @@ IMAGES
 
 # Build Notes
 These PCBs are tested to work with with a stock VENUS SUB pcb, building these requires skills in microsoldering, QFP soldering, hot air rework, and Mega Drive troubleshooting.
-It is highly recomendded you start with a set of known working parts from a donor mega drive. VA1, VA1.8 and VA3 model 2 sega genesis can provide all of the nescecary custom chips needed for this build.
-Support is not officilly provided by neither RGBeter nor Villahed94 with building or debugging these PCBs.
+It is highly recomendded you start with a set of known working parts from a donor MegaDrive. VA1, VA1.8 and VA3 Model 2 Sega Genesis/MegaDrive can provide all of the necessary custom chips needed for this build.
+Support is not officially provided by neither RGBeter nor Villahed94 with building or debugging these PCBs.
 
 # Production Notes
 While Sega utlized a 2 layer PCB for the Nomad, it is best to order these as a 4 layer PCB in order to improve noise across the board
