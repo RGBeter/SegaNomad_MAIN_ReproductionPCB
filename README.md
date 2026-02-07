@@ -2,7 +2,8 @@
 Reproduction of the Sega Nomad's main board, created from scans provided by Villahed94, Sega's documentation, and community knowledge of the FC1004 style Genesis.
 Additional features include TMSS bypass jumpers, SMS support and 32X support.
 
-IMAGES
+![Front](https://github.com/RGBeter/SegaNomad_MAIN_ReproductionPCB/blob/main/Venus_Front.png)
+![Back](https://github.com/RGBeter/SegaNomad_MAIN_ReproductionPCB/blob/main/Venus_Back.png)
 
 # Build Notes
 These PCBs are tested to work with with a stock VENUS SUB pcb, building these requires skills in microsoldering, QFP soldering, hot air rework, and Mega Drive troubleshooting.
@@ -12,7 +13,8 @@ Support is not officially provided by neither RGBeter nor Villahed94 with buildi
 # Production Notes
 While Sega utlized a 2 layer PCB for the Nomad, it is best to order these as a 4 layer PCB in order to improve noise across the board
 If you wish NOT to include the SRES bypass, add the following bodge wires in order to connect the original 315-5684 based SRES circuit.
-IMAGE
+
+![Bodge Required to use Stock SRES](https://github.com/RGBeter/SegaNomad_MAIN_ReproductionPCB/blob/main/SRES_JP.png)
 
 # BOM
 Most of, if not all parts can be directly transplanted from a donor Nomad Main board, however, some alterations have been made, and they are as follows:
