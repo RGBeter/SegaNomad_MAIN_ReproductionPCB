@@ -49,7 +49,7 @@ All large MLCC capacitors can have their value increased to 10uF to improve nois
 |C15|10uF|1206 X7R|
 |C16|10uF|1206 X7R|
 |C17|10uF|1206 X7R|
-|C18|10pF|0603 C0G|
+|C18|20pF|0603 C0G|
 |C19|47pF|0603 C0G|
 |C20|10uF|1206 X7R|
 |C21|33pF|0603 C0G DO NOT POPULATE|
