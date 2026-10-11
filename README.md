@@ -62,7 +62,7 @@ All large MLCC capacitors can have their value increased to 10uF to improve nois
 |C28|N/A|DO NOT POPULATE|
 |C29|100pF|0603 C0G|
 |C30|0.1uF|0603 X7R|
-|C31|N/A|DOES NOT EXIST|
+|C31|0.047uF|0603 X7R|
 |C32|N/A|DO NOT POPULATE|
 |C33|N/A|DOES NOT EXIST|
 |C30|1uF|0603 X7R SRES BYPASSS ONLY|
