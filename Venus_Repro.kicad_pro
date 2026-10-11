@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.5,
-          "width": 1.0
+          "height": 0.95,
+          "width": 0.9
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -120,10 +120,6 @@
           ""
         ],
         [
-          "silk_over_copper|128871903|72852563|bd01d44f-5d04-4794-a261-f03c9c5d1f98|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
           "silk_over_copper|149170000|75290000|2d247a79-7843-485c-8a8a-06604138bd3d|00000000-0000-0000-0000-000000000000",
           ""
         ],
@@ -133,14 +129,6 @@
         ],
         [
           "silk_over_copper|151220000|74116131|45526b9a-b4ca-41cb-b47a-aff4d9b959c4|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|151250000|78242136|42a00106-5d42-4b09-b7f9-6eeffbba0e61|00000000-0000-0000-0000-000000000000",
-          ""
-        ],
-        [
-          "silk_over_copper|167936131|74860000|24279c42-2b79-42d7-964e-39acf88b804c|00000000-0000-0000-0000-000000000000",
           ""
         ],
         [
@@ -593,7 +581,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "C:/Users/HJTas/Downloads/",
+      "plot": "Venus_MAIN_Gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -716,7 +704,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "",
-    "plot_directory": "",
+    "plot_directory": "./",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
