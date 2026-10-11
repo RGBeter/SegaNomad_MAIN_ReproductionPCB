@@ -106,3 +106,6 @@ All large MLCC capacitors can have their value increased to 10uF to improve nois
 |RB4|100R|4X0603 BANK|
 |RB5|100R|4X0603 BANK|
 |RB6|100R|4X0603 BANK|
+
+# Special Thanks
+Oleg Endo: Found missing C31 and documented its value, provided EMI filter part numbers
